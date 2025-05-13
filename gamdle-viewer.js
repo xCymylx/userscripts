@@ -2,9 +2,11 @@
 // @name         Gamdle Image Viewer
 // @namespace    https://github.com/xCymylx/
 // @license      MIT
-// @version      1.0.0
+// @version      1.0.1
 // @description  Show Gamedle.wtf answer images
 // @author       Cymyl
+// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/gamdle-viewer.js
+// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/gamdle-viewer.js
 // @match        https://www.gamedle.wtf/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gamedle.wtf
 // @grant        none
