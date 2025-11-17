@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Fanatic Anime Store - Remove Out of Stock
-// @namespace    https://www.cymyl.org
+// @namespace    https://github.com/xCymylx/
 // @version      1.0
 // @description  Remove out-of-stock product cards and their parent containers to eliminate blank spaces
 // @author       Cymyl
 // @match        *://www.fanaticanimestore.com/*
+// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
+// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
+// @license MIT
 // @grant        none
 // ==/UserScript==
 
@@ -16,12 +19,9 @@
         cards.forEach(card => {
             const btn = card.querySelector('.card-btn');
             if (btn && btn.textContent.toLowerCase().includes('out of stock')) {
-
-                // Try to remove parent container (e.g., <li> or <div> that wraps the card)
                 const parent = card.parentElement;
                 const toRemove =
                     parent && parent.children.length === 1 ? parent : card;
-
                 console.log('Removing out-of-stock item:', card.dataset.name || card.querySelector('.card-title')?.innerText);
                 toRemove.remove();
             }
