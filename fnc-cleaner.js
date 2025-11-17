@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fanatic Anime Store - Remove Out of Stock
 // @namespace    https://github.com/xCymylx/
-// @version      1.0
+// @version      1.1
 // @description  Remove out-of-stock product cards and their parent containers to eliminate blank spaces
 // @author       Cymyl
 // @match        *://www.fanaticanimestore.com/*
