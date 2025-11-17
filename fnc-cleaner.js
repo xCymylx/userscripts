@@ -13,7 +13,6 @@
 
 (function() {
     'use strict';
-
     function removeOutOfStockCards(root = document) {
         const cards = root.querySelectorAll('article.card');
         cards.forEach(card => {
