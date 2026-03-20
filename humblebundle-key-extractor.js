@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Humble Bundle Key Extractor
-// @namespace    https://github.com/xCymylx/userscripts/humblebundle-key-extractor
+// @namespace    https://github.com/xCymylx/userscripts/
 // @version      1.2.0
 // @description  Extracts game keys from Humble Bundle purchase/download pages into a copyable list. Auto-reveals unrevealed keys. Also works on membership pages.
 // @author       Cymyl
+// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/humblebundle-key-extractor.js
+// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/humblebundle-key-extractor.js
 // @icon         https://www.google.com/s2/favicons?domain=humblebundle.com
 // @match        https://www.humblebundle.com/home/purchases*
 // @match        https://www.humblebundle.com/downloads*

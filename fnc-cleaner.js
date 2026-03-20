@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Fanatic Anime Store - Remove Out of Stock
-// @namespace    https://github.com/xCymylx/
+// @namespace    https://github.com/xCymylx/userscripts/
 // @version      1.1
 // @description  Remove out-of-stock product cards and their parent containers to eliminate blank spaces
 // @author       Cymyl
-// @match        *://www.fanaticanimestore.com/*
 // @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
 // @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
+// @match        https://www.fanaticanimestore.com/*
+// @icon         https://www.google.com/s2/favicons?domain=fanaticanimestore.com
 // @license MIT
 // @grant        none
 // ==/UserScript==
