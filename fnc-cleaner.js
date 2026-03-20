@@ -7,7 +7,7 @@
 // @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
 // @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
 // @match        https://www.fanaticanimestore.com/*
-// @icon         https://www.google.com/s2/favicons?domain=fanaticanimestore.com
+// @icon         https://cdn11.bigcommerce.com/s-5s1ah0hhi7/product_images/favicon%20%281%29.ico?t=1599467786
 // @license MIT
 // @grant        none
 // ==/UserScript==
