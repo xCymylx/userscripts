@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fanatical Enhanced
 // @namespace    https://github.com/xCymylx/userscripts/
-// @version      1.0.0
+// @version      1.0.1
 // @license MIT
 // @description  Adds copy key buttons to fanatical order page. Based on script by Sergio Susa.
 // @author       Cymyl

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gamedle Image Viewer
 // @namespace    https://github.com/xCymylx/userscripts/
-// @version      1.0.1
+// @version      1.0.2
 // @license      MIT
 // @description  Show Gamedle.wtf answer images
 // @author       Cymyl
