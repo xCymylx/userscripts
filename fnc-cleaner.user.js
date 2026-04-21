@@ -4,8 +4,8 @@
 // @version      1.1
 // @description  Remove out-of-stock product cards and their parent containers to eliminate blank spaces
 // @author       Cymyl
-// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
-// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/fnc-cleaner.js
+// @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/fnc-cleaner.user.js
+// @downloadURL  https://raw.githubusercontent.com/xCymylx/userscripts/main/fnc-cleaner.user.js
 // @match        https://www.fanaticanimestore.com/*
 // @icon         https://cdn11.bigcommerce.com/s-5s1ah0hhi7/product_images/favicon%20%281%29.ico?t=1599467786
 // @license MIT

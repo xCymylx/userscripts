@@ -4,8 +4,8 @@
 // @version      1.0.0
 // @description  Adds copy key buttons to fanatical order page. Based on script by Sergio Susa.
 // @author       Cymyl
-// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/fanatical-enhanced.js
-// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/fanatical-enhanced.js
+// @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/fanatical-enhanced.user.js
+// @downloadURL  https://raw.githubusercontent.com/xCymylx/userscripts/main/fanatical-enhanced.user.js
 // @match        https://www.fanatical.com/*/orders/*
 // @icon         https://www.google.com/s2/favicons?domain=fanatical.com
 // @grant        GM_setClipboard

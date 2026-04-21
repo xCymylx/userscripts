@@ -4,8 +4,8 @@
 // @version      1.3.0
 // @description  Extracts game keys from Humble Bundle purchase/download pages. Auto-reveals unrevealed keys. Can auto-redeem keys on Steam. Also works on membership pages.
 // @author       Cymyl
-// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/humblebundle-key-extractor.js
-// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/humblebundle-key-extractor.js
+// @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/humblebundle-key-extractor.user.js
+// @downloadURL  https://raw.githubusercontent.com/xCymylx/userscripts/main/humblebundle-key-extractor.user.js
 // @icon         https://www.google.com/s2/favicons?domain=humblebundle.com
 // @match        https://www.humblebundle.com/home/purchases*
 // @match        https://www.humblebundle.com/downloads*

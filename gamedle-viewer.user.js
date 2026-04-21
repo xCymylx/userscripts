@@ -5,8 +5,8 @@
 // @version      1.0.1
 // @description  Show Gamedle.wtf answer images
 // @author       Cymyl
-// @updateURL    https://github.com/xCymylx/userscripts/raw/refs/heads/main/gamedle-viewer.js
-// @downloadURL  https://github.com/xCymylx/userscripts/raw/refs/heads/main/gamedle-viewer.js
+// @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/gamedle-viewer.user.js
+// @downloadURL  https://raw.githubusercontent.com/xCymylx/userscripts/main/gamedle-viewer.user.js
 // @match        https://www.gamedle.wtf/*
 // @icon         https://www.google.com/s2/favicons?domain=gamedle.wtf
 // @grant        none
