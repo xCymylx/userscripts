@@ -2,7 +2,7 @@
 // @name         Fanatic Anime Store - Remove Out of Stock
 // @namespace    https://github.com/xCymylx/userscripts/
 // @version      1.1.1
-// @license MIT
+// @license      MIT
 // @description  Remove out-of-stock product cards and their parent containers to eliminate blank spaces
 // @author       Cymyl
 // @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/fnc-cleaner.user.js
