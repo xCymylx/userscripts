@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ES Monster Patreon → Cults3D Promo Code Extractor
 // @namespace    https://github.com/xCymylx/userscripts/
-// @version      1.0.2
+// @version      1.0.3
 // @license      MIT
 // @description  Reads all promo codes from ES Monster Patreon posts and auto-applies them sequentially to the Cults3D cart
 // @author       Cymyl
