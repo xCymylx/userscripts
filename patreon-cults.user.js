@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         ES Monster Patreon → Cults3D Promo Code Extractor
 // @namespace    https://github.com/xCymylx/userscripts/
-// @version      1.0.1
+// @version      1.0.2
 // @license      MIT
 // @description  Reads all promo codes from ES Monster Patreon posts and auto-applies them sequentially to the Cults3D cart
 // @author       Cymyl
 // @updateURL    https://raw.githubusercontent.com/xCymylx/userscripts/main/patreon-cults.user.js
 // @downloadURL  https://raw.githubusercontent.com/xCymylx/userscripts/main/patreon-cults.user.js
 // @icon         https://www.google.com/s2/favicons?domain=cults3d.com
-// @match        https://www.patreon.com/posts/*
+// @match        https://www.patreon.com/*/posts/*
 // @match        https://cults3d.com/en/cart
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -294,11 +294,13 @@
   const host = location.hostname;
   const path = location.pathname;
 
-  if (host.includes('patreon.com') && path.startsWith('/posts/')) {
+  // Patreon URLs are now /<creator-handle>/posts/<slug> instead of
+  // the old /posts/<slug>, so we match "/posts/" anywhere in the path
+  // rather than requiring it at the start.
+  if (host.includes('patreon.com') && path.includes('/posts/')) {
     runOnPatreon();
   } else if (host.includes('cults3d.com') && path.startsWith('/en/cart')) {
     runOnCults3D();
   }
 
 })();
-
